@@ -11,6 +11,18 @@ nav a {
     font-size: 2em;
 }
 
+.navGroup1{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.navGroup2{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
 nav a:hover {
     color: rgb(254, 94, 94);
 }
@@ -24,6 +36,12 @@ nav li:hover {
     #navLinks{
         flex-direction: column;
         align-items: center;
+    }
+    .navGroup1{
+        justify-content: space-between;
+    }
+    .navGroup2{
+        justify-content: space-between;
     }
 }
 
